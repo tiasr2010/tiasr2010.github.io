@@ -93,12 +93,15 @@ a {
 }
 
 .news-list li {
+  display: flex; /*new*/
   margin-bottom: 12px;
+  gap: 10px; /*new*/
 }
 
 .news-date {
   display: inline-block;
-  width: 110px;
+  flex: 0 0 110px;
+  /*width: 110px;*/
   font-family: Arial, sans-serif;
   font-size: 14px;
   color: #777;
