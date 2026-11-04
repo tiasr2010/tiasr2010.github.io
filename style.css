@@ -94,13 +94,12 @@ a {
 }
 
 .news-list li {
-  display: grid;
-  grid-template-columns: 110px 1fr;
-  column-gap: 10px;
   margin-bottom: 12px;
 }
 
 .news-date {
+  display: inline-block;
+  width: 110px;
   font-family: Arial, sans-serif;
   font-size: 14px;
   color: #777;
