@@ -95,6 +95,8 @@ a {
 
 .news-list li {
   margin-bottom: 12px;
+  padding-left: 110px;
+  text-indent: -110px;
 }
 
 .news-date {
